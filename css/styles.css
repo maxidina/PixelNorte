@@ -83,4 +83,38 @@ th {
 
 td {border:1px solid black;
 	padding:12px;
-	}
+}
+
+form {
+	display:flex;
+	flex-direction:column;
+	gap:15px;
+	max-width:600px;
+}
+
+input,textarea{
+		width:100 %;
+		padding:10px;
+		border:1px solid #ccc;
+		border-radius:5px;
+}
+
+textarea{
+	min-height:120px;
+	resize:vertical;
+}
+
+button{ 
+	width:200px;
+	background-color:#1f2937;
+	color:white;
+	border:none;
+	padding:12px;
+	cursor:pointer;
+}
+
+button:hover{
+		background-color:#2563eb;
+}
+
+
